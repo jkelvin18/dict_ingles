@@ -1,10 +1,1 @@
-"Next": "AddAccountId"
-        },
-        "AddAccountId": {
-            "Type": "Pass",
-            "Parameters": {
-                "output.$": "$",
-                "account_id": "2022"
-            },
-            "Next": "ParallelExecution"
-        },
+Durante o mês de maio, aprimoramos o processo de geração do arquivo de tempos de fila. Em vez de utilizar apenas os tempos registrados pelas papeletas - método que está sendo progressivamente descontinuado - incorporamos tempos obtidos através do sistema SIGA e do novo sinalizador. Essas mudanças refletem de maneira mais precisa a realidade atual.
